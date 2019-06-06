@@ -33,63 +33,101 @@ In `project/settings.py` add/change the following line
 ### Django
 Django framework
 
-## requests
+### requests
 	
 
     pip install requests
-Used in views.py for accessing request object
+Used in `views.py` for accessing request object
 
-##  jquery
+### unidecode
+	pip install unidecode
+For handling non-ascii character
+
+###  jquery
 	
-
     https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 JavaScript library used for html dom element accessing and manipulation
 
-## Line Awesome
+### Line Awesome
 	https://icons8.com/line-awesome
 Used for icons
 
-## Bootstrap3:
+### Bootstrap3:
 	https://getbootstrap.com/
 Uses its prebuilt components in HTML
 
-## Datepicker:
+### Datepicker:
 	https://bootstrap-datepicker.readthedocs.io/en/latest/
 Used for flexible datepicker widget.
 
-## Selectpicker:
+### Selectpicker:
 	https://developer.snapappointments.com/bootstrap-select/
 Used for single select, multi select selectpicker
 
-## CanvasJS
+### Datatable
+	https://datatables.net/
+Used for showing tables with pagination, searching, sorting
+
+### CanvasJS
 	https://canvasjs.com/
 Chart library
 Used for drawing chart
 Used in insights page
 
-## Alert
+### Alert
 	https://sweetalert2.github.io/
 Used for customized pop up
 Used for success/error message
 
-## BlockUI
+### BlockUI
 	http://malsup.com/jquery/block
-	Used for blocking UI element and prevent interaction.
-	It is used in blocking form when no customers/rule sets are selected
+Used for blocking UI element and prevent interaction.
+It is used in blocking form when no customers/rule sets are selected
 
 
-## SVG.js
+### SVG.js
 	https://svgjs.com/
 Used for drawing svg. 
 It is used in heatmap page
 
-## Material Icon css
+### Material Icon css
 	https://fonts.googleapis.com/icon?family=Material+Icons
 For using material icons
 
-## Google Font
+### Google Font
 	https://fonts.googleapis.com/css?family=Roboto
 For using Roboto font
+
+## Things to learn
+- Django
+	- Django settings file
+	- Django Templates
+	- Django Static files 
+	- Handling HTTP requests in Django
+	- Django url, views
+- Python
+- JavaScript
+	- JSON parsing
+	- grep
+	- map
+	- filter		
+	- promise
+	- arrow function
+- jQuery
+	- ajax
+	- selectors
+	- events
+	- append/prepend
+	- dom manipulation
+	- css
+- Bootstrap
+- CSS
+	- Selectors
+	- Display
+	- Position
+	- Float
+
+ 
 
 
   
