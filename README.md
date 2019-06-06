@@ -55,15 +55,15 @@ Used in insights for sliding chart that can not fit in one screen
 	https://icons8.com/line-awesome
 Used for icons
 
-### Bootstrap3:
+### Bootstrap3
 	https://getbootstrap.com/
 Uses its prebuilt components in HTML
 
-### Datepicker:
+### Datepicker
 	https://bootstrap-datepicker.readthedocs.io/en/latest/
 Used for flexible datepicker widget.
 
-### Selectpicker:
+### Selectpicker
 	https://developer.snapappointments.com/bootstrap-select/
 Used for single select, multi select selectpicker
 
