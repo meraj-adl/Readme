@@ -44,9 +44,12 @@ Used in `views.py` for accessing request object
 For handling non-ascii character
 
 ###  jquery
-	
-    https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+	https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 JavaScript library used for html dom element accessing and manipulation
+
+### Slider
+	https://jqueryui.com/slider/
+Used in insights for sliding chart that can not fit in one screen
 
 ### Line Awesome
 	https://icons8.com/line-awesome
