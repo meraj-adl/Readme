@@ -131,6 +131,46 @@ For using Roboto font
 	- Float
 
  
+## How to match data daily
+### Insights:
+In "Footfalls and dwell time by day of month" chart, data should be present upto yesterday for each store.
+
+### Insights vs Universe:
+#### Compare "Customer composition by number of visits" chart and Customer Universe
+
+`Total customers:` Total customers should match for each customer type filter(registered, unregistered, all) for "all store" filter and each store(1st check for "all store" filter)
+
+`Visitwise customer count:` For each visit(1 visit, 2 to 5 visits, 6 to 10 visits, more than 10 visits), customer count should be matched for each store and each customer type(1st check for "all store" filter)
+
+### Insights vs Flow:
+#### Compare "Store-wise customer composition: Customer who visited" chart and Customer Flow(Set Interval period filter to "Month")
+
+`Monthwise customer count:` For each 4 months(current month and previous 3 months), total customer count should match for each store and each customer type(1st check for "all store" filter)
+
+### Insights vs Rule sets:
+#### Compare "Customer composition by number of visits" chart and Rule sets
+
+Check with "all store" store filter and each customer filter(registered, unregistered, all) in insights "Customer composition by number of visits" chart.
+
+`Total customer count:` Registered customer count, Unegistered customer count and total customer count should match(Don't apply any filter in Rule sets and change customer filter in insights)
+
+`Visitwise customer count:` In rule set, apply "Total number of visits" filter and check for each visits(1,2,3,4,5,6-10,>10), total customer count should match(Apply "Total number of visits" filter in Rule sets and change customer filter in insights) 
+
+`Life cycle stage wise customer count:` In rule set, apply "Life cycle stage" filter and check for each life cycle stage(new, active, passive, lapsed), total customer count should match(Apply "Life cycle stage" filter in Rule sets and change customer filter in insights)
+
+`Visit + Lifecycle stage:` Combine above two. In rule set, apply "Total number of visits" filter and "Life cycle stage" filter, and check for for each visits(1,2,3,4,5,6-10,>10) and each life cycle stage(new, active, passive, lapsed), total customer count should match(Apply "Total number of visits" filter and "Life cycle stage" filter in Rule sets and change customer filter in insights)
+
+### Insights vs Metrics:
+#### Compare "Store-wise customer composition: Customer who visited" chart with Metrics
+Apply "all" customer filer in insights and change store filter for each store and compare with metrics for that store and month
+
+Change store filter in insights. For each store and each month(current and last 3 months), total customer in insights(above bar in insights) and unique customers in metrics(visible after clicking +) should match
+
+
+#### Compare "Store-wise customer composition: Customer who didn't visited" chart with Metrics
+Apply "all" customer filer in insights and change store filter for each store and compare with metrics for that store and month
+
+Change store filter in insights. For each store and each month(current and last 3 months), total customer in insights(Customer who didn't visited) and sum "Visited earlier to store, repeat to network and not visited to store" + "Visited earlier to store, not visited to store or network" in metrics should match
 
 
   
