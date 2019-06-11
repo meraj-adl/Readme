@@ -1,4 +1,3 @@
-# Health and Glow
 
 ## Project setup
 
